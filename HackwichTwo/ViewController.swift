@@ -12,7 +12,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //any code you add to the viewDidLoad block is your initial setting for the application. The applicaitons are set within the { and }
+        func pressMeButtonPressed (_ sender: Any)
+  
+        print("Hello World!")
     }
+    //This is the code block for the presseMeButtonPressed funtion
+    
+    //Part 7 Number 5
+    
+ 
+    
 
 
 }
