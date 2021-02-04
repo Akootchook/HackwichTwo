@@ -32,6 +32,14 @@
                                     <action selector="PressMeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VG8-aJ-GkL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBM-BF-519">
+                                <rect key="frame" x="166" y="398" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Press Me Also"/>
+                                <connections>
+                                    <action selector="pressMeAlsoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Xh-MM-YCm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
